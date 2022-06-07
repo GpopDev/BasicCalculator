@@ -13,7 +13,7 @@ namespace Calculator
                 double number2 = Convert.ToDouble(Console.ReadLine());
 
                 Console.WriteLine("[+] What u wanna do");
-                Console.WriteLine("[+] M to multiply, S suma, R restar, D division");
+                Console.Write("[+] M to multiply, S suma, R restar, D division: ");
                 string no = Console.ReadLine();
                 string response = no.ToLower();
 
